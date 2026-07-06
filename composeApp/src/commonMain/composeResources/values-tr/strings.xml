@@ -294,7 +294,7 @@
     <string name="compose_auth_continue_without_account">Hesapsız devam et</string>
     <string name="compose_auth_create_account">Hesap oluştur</string>
     <string name="compose_auth_dont_have_account">Hesabın yok mu? </string>
-    <string name="compose_auth_email">E-posta</string>
+    <string name="compose_auth_email">Kullanıcı Adı</string>
     <string name="compose_auth_or_separator">  veya  </string>
     <string name="compose_auth_password">Şifre</string>
     <string name="compose_auth_sign_in_subtitle">Kitaplığına ve izleme ilerlemene ulaşmak için giriş yap</string>

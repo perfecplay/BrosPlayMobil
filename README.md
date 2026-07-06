@@ -1,101 +1,37 @@
-<div align="center">
+﻿<div align="center">
 
-  <img src="https://github.com/tapframe/NuvioTV/blob/main/assets/brand/app_logo_wordmark.png" alt="Nuvio" width="300" />
-  <br />
-  <br />
+# 🎬 BrosPlayMobil
 
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![License][license-shield]][license-url]
+**Eğlencenin Yeni Adresi**
 
-  <p>
-    A modern media hub for Android and iOS built with Kotlin Multiplatform and Compose Multiplatform.
-    <br />
-    Stremio addon ecosystem • Cross-platform
-  </p>
+<br>
+
+[![APK İndir](https://img.shields.io/badge/APK'yi_Hemen_İndir-238636?style=for-the-badge&logo=android&logoColor=white)](https://github.com/perfecplay/BrosPlayMobil/releases/latest)
+
+<br>
+
+BrosPlayMobil, en sevdiğiniz dizi ve filmleri tek bir noktada toplayan, kullanımı kolay, modern ve ultra hızlı bir medya oynatıcısıdır.
 
 </div>
 
-## About
+---
 
-Nuvio is the current Kotlin Multiplatform rewrite of the original React Native app. It delivers a shared Compose UI for Android and iOS while keeping the playback-focused experience, collection tools, watch progress flows, downloads, and Stremio addon ecosystem integration that shaped the earlier app.
+## 📥 Kurulum (Android)
 
-The mobile app is built from a single shared codebase in [composeApp](./composeApp), with native platform entry points for Android and iOS.
+1. Yukarıdaki yeşil **APK İndir** butonuna tıklayın.
+2. Açılan sayfadaki **Assets** bölümünden **BrosPlayMobil-0.2.19-FINAL.apk** dosyasına tıklayarak telefonunuza indirin.
+3. İndirdiğiniz dosyayı açın ve **Yükle** seçeneğine tıklayın.
+   *(Cihazınızda "Bilinmeyen Kaynaklar" izni kapalıysa, ayarlardan izin vermeniz gerekebilir.)*
+4. Kurulum tamamlandı! Kullanıcı adı ve şifrenizi girerek keyfini çıkarın.
 
-## Installation
+## 🌟 Öne Çıkan Özellikler
 
-### Android
+- **Giriş Kolaylığı:** Sadece "Kullanıcı Adı" ve şifre ile saniyeler içinde anında erişim.
+- **Profil Karmaşası Yok:** Profil seçme veya oluşturma ekranı olmadan doğrudan içeriklere ulaşın.
+- **Hızlı ve Akıcı:** Gereksiz tüm önbellek ve yükleme ekranlarından arındırılmış saf hız.
+- **Modern Arayüz:** Göz yormayan, tamamen Türkçe ve yenilenmiş tasarım.
 
-Download the latest Android build from [GitHub Releases](https://github.com/NuvioMedia/NuvioMobile/releases/latest).
-
-### iOS
-
-- [TestFlight](https://testflight.apple.com/join/u4y7MHK9)
-
-## Development
-
-```bash
-git clone https://github.com/NuvioMedia/NuvioMobile.git
-cd NuvioMobile
-./scripts/run-mobile.sh android
-# or
-./scripts/run-mobile.sh ios
-```
-
-### Project Structure
-
-- `composeApp/` contains the shared Kotlin Multiplatform and Compose Multiplatform app code.
-- `composeApp/src/commonMain/` contains shared UI, features, repositories, and platform-agnostic logic.
-- `composeApp/src/androidMain/` contains Android-specific integrations.
-- `composeApp/src/iosMain/` contains iOS-specific integrations.
-- `iosApp/` contains the native Xcode project and iOS entry point.
-
-Useful commands:
-
-```bash
-./gradlew :composeApp:assembleDebug
-./gradlew :composeApp:compileKotlinIosSimulatorArm64
-./scripts/build-distribution.sh
-```
-
-Versioning is driven from `iosApp/Configuration/Version.xcconfig`, which is used as the shared source of truth for both iOS and Android builds.
-
-## Legal & DMCA
-
-Nuvio functions solely as a client-side interface for browsing metadata and playing media provided by user-installed extensions and/or user-provided sources. It is intended for content the user owns or is otherwise authorized to access.
-
-Nuvio is not affiliated with any third-party extensions, catalogs, sources, or content providers. It does not host, store, or distribute any media content.
-
-For comprehensive legal information, including our full disclaimer, third-party extension policy, and DMCA/Copyright information, please visit our [Legal & Disclaimer Page](https://nuvioapp.space/legal).
-
-## Built With
-
-- Kotlin Multiplatform
-- Compose Multiplatform
-- Kotlin
-- AndroidX Media3
-- AVFoundation and native iOS integrations
-
-## Star History
-
-<a href="https://www.star-history.com/#NuvioMedia/NuvioMobile&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=NuvioMedia/NuvioMobile&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=NuvioMedia/NuvioMobile&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=NuvioMedia/NuvioMobile&type=date&legend=top-left" />
- </picture>
-</a>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/NuvioMedia/NuvioMobile.svg?style=for-the-badge
-[contributors-url]: https://github.com/NuvioMedia/NuvioMobile/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/NuvioMedia/NuvioMobile.svg?style=for-the-badge
-[forks-url]: https://github.com/NuvioMedia/NuvioMobile/network/members
-[stars-shield]: https://img.shields.io/github/stars/NuvioMedia/NuvioMobile.svg?style=for-the-badge
-[stars-url]: https://github.com/NuvioMedia/NuvioMobile/stargazers
-[issues-shield]: https://img.shields.io/github/issues/NuvioMedia/NuvioMobile.svg?style=for-the-badge
-[issues-url]: https://github.com/NuvioMedia/NuvioMobile/issues
-[license-shield]: https://img.shields.io/github/license/NuvioMedia/NuvioMobile.svg?style=for-the-badge
-[license-url]: https://github.com/NuvioMedia/NuvioMobile/blob/main/LICENSE
+---
+<div align="center">
+  <p><i>Bu proje, açık kaynak dünyasına katkılarından dolayı orijinal altyapı sağlayıcılarına teşekkür edilerek özelleştirilmiştir. Açık kaynak felsefesi ve lisans gereklilikleri uyarınca kodlar şeffaf olarak depoda barındırılmaktadır.</i></p>
+</div>
